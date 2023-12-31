@@ -1,0 +1,10 @@
+// Ymusic
+android_app_import {
+    name: "Ymusic",
+    apk: "ymusic.apk",
+    presigned: true,
+    overrides: ["Eleven"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
